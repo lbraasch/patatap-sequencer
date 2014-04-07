@@ -11,7 +11,7 @@ Load Patatap web app and then install patatap-sequencer by copy/pasting source c
   - Open web browser to http://www.patatap.com
   - Right click the page and select <b>Inspect Element</b>
   - Select the <b>Console</b> tab
-  - Paste the contents of patatap-sequencer.js into the console window and press enter 
+  - Copy/Paste the contents of <b>patatap-sequencer.js</b> into the console window and press enter 
 
 If it is your first time loading the patatap-sequencer, you will need to disable your pop-up blocker for patatap.com
 
