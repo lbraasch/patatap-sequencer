@@ -20,6 +20,7 @@ function createSequencer() {
   }
 
   x.document.open();
+  x.document.write('<head><title>Patatap-Sequencer</title></head>');
   x.document.write('<body style="background-color:rgb(181,181,181); font-family: Consolas, &quot;Andale Mono&quot;, &quot;monospace Courier&quot;, &quot;monospace Fixed&quot;, &quot;monospace monospace&quot;  ;font-size: 14px; padding-left:10px"');
 
   //play/pause/clear buttons
@@ -88,7 +89,6 @@ function createSequencer() {
     } catch(error) {
       console.warn('Typo space');
     }
-    //$("input").val(String.fromCharCode(e.which));
     $("html").trigger(e);
   };
   //(re)start the music
