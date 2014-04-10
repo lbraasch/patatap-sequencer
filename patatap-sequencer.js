@@ -20,7 +20,7 @@ function createSequencer() {
   }
 
   x.document.open();
-  x.document.write('<body style="background-color:rgb(181,181,181); font-family: Consolas;font-size: 14px; padding-left:10px"');
+  x.document.write('<body style="background-color:rgb(181,181,181); font-family: Consolas, &quot;Andale Mono&quot;, &quot;monospace Courier&quot;, &quot;monospace Fixed&quot;, &quot;monospace monospace&quot;  ;font-size: 14px; padding-left:10px"');
 
   //play/pause/clear buttons
   x.document.write('</br>');
