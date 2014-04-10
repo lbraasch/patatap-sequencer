@@ -26,8 +26,9 @@ function createSequencer() {
   x.document.write('</br>');
   x.document.write('<button type="button" onclick="playSequencer();">Play</button>');
   x.document.write('<button type="button" onclick="pauseSequencer();">Pause</button>');
+  x.document.write('<button type="button" onclick="clearSequencer();">Clear</button>');
   x.document.write('<button type="button" onclick="randomClear();">Random Clear</button>');
-  x.document.write('<button type="button" onclick="clearSequencer();">Clear All</button>');
+  x.document.write('<button type="button" onclick="changeSequencer();">Remap Triggers</button>')
   x.document.write('</br></br>');
 
   //edit the beats per minute
@@ -78,6 +79,17 @@ function createSequencer() {
     var ind = Math.floor((Math.random()*tracks.length)+1);
     tracks[ind].reset();
     superloops.remove(alpha[ind]);
+  };
+  //send spacebar to remap keys to new samples
+    x.document.changeSequencer = function() {
+    var e = jQuery.Event("keydown");
+    try {
+      e.which = " ".toUpperCase().charCodeAt(0);
+    } catch(error) {
+      console.warn('Typo space');
+    }
+    //$("input").val(String.fromCharCode(e.which));
+    $("html").trigger(e);
   };
   //(re)start the music
   x.document.playSequencer = function() {
