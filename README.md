@@ -15,5 +15,9 @@ Load Patatap web app and then install patatap-sequencer by copy/pasting source c
 
 If it is your first time loading the patatap-sequencer, you will need to disable your pop-up blocker for patatap.com
 
+<b>Screen Shot:</b><br>
+
+![alt tag](http://i.imgur.com/diKQCMc.png)
+
 <b>About:</b><br>
 patatap-sequencer is built on top of patatap-looper by Reimertz, https://github.com/reimertz/patatap-looper
