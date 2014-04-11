@@ -1,13 +1,15 @@
 patatap-sequencer
 =================
 
-Step Sequencer for Patatap music / visualizer by JonoBr1: http://www.patatap.com
+Step Sequencer for Patatap music / visualizer by JonoBr1: http://www.patatap.com<br>
 
-<h5>Usage:</h5>
+<b>Changelog:</b><br>
+v0.2 - Save songs with persistant storage. Use <b>Track</b> pulldown and select <b>Save</b> or <b>Load</b> to copy tracks and build songs with multiple sections. Songs will persist until manually erased. Use <b>Clear</b> and <b>Save</b> to erase a track.
+
+<b>Usage:</b><br>
 Load Patatap web app and then install patatap-sequencer by copy/pasting source code patatap-sequencer.js into the browser console. 
 
 <b>Instructions for Google Chrome:</b><br>
-
   - Open web browser to http://www.patatap.com
   - Right click the page and select <b>Inspect Element</b>
   - Select the <b>Console</b> tab
